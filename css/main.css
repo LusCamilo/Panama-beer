@@ -1,0 +1,82 @@
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17%;
+    font-family: "Gupter", serif;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    display: flex;
+    padding-top: 50px;
+    transition: width 2s;
+}
+.img:hover{
+    width: ;
+}
+.conjunto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vagas-container{
+    display: flex;
+    flex-direction: column;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #ffffff;
+    width: 455px;
+    height: 200px;
+}
+p{
+    font-size: 32px;
+    font-family: "Gupter", serif;
+}
+.text{
+    color: #ffffff;
+    background-color: black;
+    border:  black solid;
+    border-left: 50px solid black;
+    border-right: 50px solid black;
+}
+.vagas{
+    border:5px solid #ffffff;
+}
+.dep{
+    padding-left: 3.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-dep{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    color: #ffffff;
+    width: 95%;
+}
+.text-dep3{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    color: #ffffff;
+    width: 80%;
+}
+.img-dep{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    display: flex;
+    padding-top: 50px;
+}
+
