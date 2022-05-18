@@ -1,59 +1,61 @@
 h2{
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-top: 17%;
+    justify-content: center;
+    padding-top: 250px;
     font-family: "Gupter", serif;
-    font-size: 100px;
+    font-size: 6vw;
     color: #ffffff;
 }
-
-.img{
-    display: flex;
-    justify-content: center;
-    gap: 7%;
-    display: flex;
-    padding-top: 50px;
-    transition: width 2s;
+img{
+    max-width: 100%;
 }
-.img:hover{
-    width: ;
+.vagas{
+    border: solid #ffffff;
 }
-.conjunto1{
+.carreiras{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 7%;
+    padding-top: 30px;
 }
 .vagas-container{
     display: flex;
     flex-direction: column;
+}
+.animação{
+    display: none;
+    color: white;
+    background-color: #ffffff;
+}
+.animação:hover{
+    display: block;
+    
 }
 .caixa{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     background-color: #ffffff;
-    width: 455px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+    border-bottom:  solid #ffffff;
 }
 p{
-    font-size: 32px;
+    font-size: 2vw;
     font-family: "Gupter", serif;
 }
 .text{
     color: #ffffff;
     background-color: black;
-    border:  black solid;
+    border: black solid;
     border-left: 50px solid black;
     border-right: 50px solid black;
 }
-.vagas{
-    border:5px solid #ffffff;
-}
 .dep{
-    padding-left: 3.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,20 +65,60 @@ p{
     justify-content: center;
     padding-top: 3%;
     color: #ffffff;
-    width: 95%;
-}
-.text-dep3{
-    display: flex;
-    justify-content: center;
-    padding-top: 3%;
-    color: #ffffff;
-    width: 80%;
+    width: 70%;
 }
 .img-dep{
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 7%;
     display: flex;
+    gap: 7%;
     padding-top: 50px;
 }
+@media(max-width: 420px){
+    h2{
+        font-size: 50px;
+        padding-top: 200px;
+    }
+    .text{
+        color: #ffffff;
+        background-color: black;
+        border:  black solid;
+        border-left: 105px solid black;
+        border-right: 105px solid black;
+    }
+    .caixa{
+        border: #ffffff solid;
+    }
+    p{
+        font-size: 20px;
+        font-family: "Gupter", serif;
+    }
+    .carreiras{
+        gap: 20px;
+        padding-top: 20px;
+        padding-left: 20%;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 80%;
+    }
+    .dep{
+        padding-bottom: 20px;
+        padding-left: 20%;
+    }
+    .img-dep{
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+    }
+    .text-dep{
+        width: 100%;
+    }
 
+}

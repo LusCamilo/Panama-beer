@@ -18,11 +18,11 @@ a {
     justify-content: space-between;
 }
 .logo{
-    padding-left: 30px;
-    height: 200px;
+
+    height: 100%;
 }
 
-.pnew{
+.links-container{
     position: relative;
     display: flex;
     gap: 85px;
@@ -35,13 +35,12 @@ a {
     position: fixed;
     padding-left: 85px;
 }
-
-.pnew a{
+.links-container a{
     text-shadow: 2px 2px 2px #000;
     transition: all .3s;
 }
 
-.pnew a:hover{
+.links-container a:hover{
     padding: 3px 3px;
     box-sizing: border-box;
     border-bottom: 4px solid #DBC87F;
@@ -49,7 +48,7 @@ a {
 }
 
 @media (max-width: 1650px){
-    .pnew{
+    .links-container{
         gap: 40px;
         transition: all 0.8s;
     }
@@ -59,7 +58,7 @@ a {
 }   
 
 @media (max-width: 1423px){
-    .pnew{
+    .links-container{
         font-size: 30px;
         gap: 40px;
     }
@@ -69,14 +68,34 @@ a {
 }   
 
 @media (max-width: 1290px){
-    .pnew{
-        font-size: 0px;
-        gap: 0px;
+    .pep{
         display: none;
-        transition: all 0.1s;
     }
-    .people{
-        padding-left: 80px;
+    .links-container{
+        display: flex;
+        padding-left: 10%;
+        padding-top: 500px;
+        padding-bottom: 500px;
+        transition: all 0.1s;
+        background-color: #000;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size:  2.5rem;
+        font-weight: 300;
+        gap: 65px;
+        transform: translate(100%);
+        transition: all 1s;
+    }
+    .menu-burguer-container.show ~ .links-container{
+        transform: translate(0);
     }
 }   
 
@@ -86,9 +105,12 @@ a {
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 420px){
     .logo{
         height: 100px;
         padding-left: 10px;
+    }
+    .links-container{
+        font-size: 9vw;
     }
 }
