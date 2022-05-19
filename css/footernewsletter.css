@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.titulo3{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+
+    font-size: 100px;
+    font-family: 'Gupter', sans-serif;
+}
+
+.mapa{
+    padding-top: 30px;
+}
