@@ -1,0 +1,165 @@
+.linha2{
+    
+position: absolute;
+width: 785px;
+height: 4px;
+left: 107px;
+top: 340px;
+
+background: #B7B7B7;
+}
+.circulo{
+    box-sizing: border-box;
+
+position: absolute;
+width: 104px;
+height: 91px;
+left: 909px;
+top: 294px;
+
+border: 3px solid #B7B7B7;
+border-radius: 50px;
+
+}
+.linha3{
+position: absolute;
+width: 785px;
+height: 4px;
+left: 1031px;
+top: 339px;
+
+background: #B7B7B7;   
+}
+.texto1{
+    position: absolute;
+width: 1034px;
+height: 37px;
+left: 107px;
+top: 443px;
+
+font-family: 'Gupter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 37px;
+
+
+
+color: #DBC87F;
+}
+.texto2{
+    position: absolute;
+width: 1537px;
+height: 25px;
+left: 107px;
+top: 527px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+
+
+color: rgba(128, 128, 128, 0.72);
+
+}
+.texto3{
+    position: absolute;
+width: 1557px;
+height: 25px;
+left: 107px;
+top: 559px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+
+
+color: rgba(128, 128, 128, 0.72);
+}
+.texto4{
+    position: absolute;
+width: 633px;
+height: 25px;
+left: 107px;
+top: 591px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+
+
+color: rgba(128, 128, 128, 0.72);
+
+}
+.quadrado{
+    box-sizing: border-box;
+
+position: absolute;
+width: 511px;
+height: 71px;
+left: 142px;
+top: 706px;
+
+background: #302A2A;
+border: 1px solid #FFFFFF;
+}
+.nome{
+    
+    
+    
+    padding-top: 10px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #DBC77D;
+}
+.quadrado2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 511px;
+height: 71px;
+left: 1061px;
+top: 706px;
+
+background: #302A2A;
+border: 1px solid #FFFFFF;
+}
+.letter{
+    position: absolute;
+width: 59px;
+height: 46px;
+left: 931px;
+top: 316px;
+
+background: url(../img/selo.png);
+}
+.email{
+
+width: 165px;
+height: 40px;
+left: 1093px;
+padding-top: 10px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+
+color: #DAC77C;
+
+}
+

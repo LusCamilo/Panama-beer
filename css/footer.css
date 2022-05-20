@@ -1,0 +1,25 @@
+.termos{
+    position: absolute;
+width: 457px;
+height: 30px;
+left: 708px;
+top: 843px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: rgba(132, 132, 132, 0.62);
+
+}
+.termoslogo{
+    position: absolute;
+width: 135px;
+height: 135px;
+left: 869px;
+top: 906px;
+
+background: url(image\ 15.png);
+}

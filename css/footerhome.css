@@ -7,9 +7,12 @@ footer{
 }
 
 .butto{
+    padding-top: 450px;
     font-size: 60px;
 
     display: flex;
     justify-content: center;
     color: white;
 }
+
+

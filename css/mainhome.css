@@ -1,21 +1,29 @@
 main{
     display: flex;
-    flex-direction: column;
     color: white;
     padding-top: 5%;
     font-family: 'Lato', sans-serif;
-    width: 100%;
 
     width: 100%;
-    height: 864px;
-    left: -12px;
-    top: calc(50% - 764px/2 + 60px);
+    height: 100%;
 
     z-index: -1 ;
-    background: linear-gradient(90deg, #000000 14.44%, rgba(0, 0, 0, 0) 71.66%), linear-gradient(180deg, #000000 0%, rgba(12, 12, 12, 0) 77.74%), linear-gradient(180deg, #000000 12.91%, rgba(0, 0, 0, 0) 70.13%), url(./imgs/back.png);
+    background: linear-gradient(90deg, #000000 14.44%, rgba(0, 0, 0, 0) 71.66%), linear-gradient(180deg, #000000 0%, rgba(12, 12, 12, 0) 77.74%), linear-gradient(180deg, #000000 12.91%, rgba(0, 0, 0, 0) 70.13%), url(../img/back.png);
     background-repeat: no-repeat;
+    background-size:100%;
+    overflow: auto;
+    position: absolute;
     background-size: cover;
-    background-position: right;
-    background-blend-mode: darken;
 }
-
+.txt{
+    text-shadow: #000000 2px, 2px, 2px, 2px;
+    font-family: 'Gupter', sans-serif;
+    padding-top: 100px;
+    margin-left: 10%;
+    font-size: 5rem;
+    width: 30%;
+    display: flex;
+    color: #ffff;
+    align-items: center;
+    z-index: 1;
+}

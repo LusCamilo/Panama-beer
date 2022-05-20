@@ -1,4 +1,4 @@
-const menu = document.querySelector('menu-burguer-container')
+const menu = document.querySelector('.menu-burguer-container')
 
 function menuAction (){
     menu.classList.toggle('show')

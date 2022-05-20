@@ -1,0 +1,50 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gupter', sans-serif;
+    padding-top: 250px;
+    font-size: 6vw;
+    color: #fff;
+}
+.linhadotempo{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    border: 2px #DBC87F solid;
+    border-radius: 50%;
+}
+.etapa-central{
+    display: flex;
+    align-items: center;
+}
+p{
+    color: #fff;
+}
+.linha{
+    width: 500px;
+}
+.etapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3%;
+    color: #ffffff;
+    width: 70%;
+}
+.img-dep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 7%;
+    padding-top: 50px;
+}
